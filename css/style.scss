@@ -2,8 +2,13 @@
  * Author: Injamul Mohammad Mollah
  * Date: 2020-07-12
  */
+
+$font-color: #364c8d;
+$hr-color: #f8ae9f;
 body {
   margin: 1rem;
+  color: $font-color;
+  background-color: #e0e0e0;
 }
 // Header
 .nav-bar {
@@ -14,6 +19,9 @@ body {
   justify-content: space-between;
   .nav-links {
     text-decoration: none;
+    color: $font-color;
+    font-weight: 900;
+    font-size: 1rem * 1.4;
     padding-top: 4px;
   }
   li {
@@ -21,23 +29,64 @@ body {
   }
 }
 // Body
+a {
+  text-decoration: none;
+}
+p,
+address {
+  color: black;
+  b {
+    color: $font-color;
+  }
+}
 .about {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
   padding: 0.5rem;
   .pp {
     img {
-      height: 100%;
+      // height: 100%;
       width: 100%;
+      border: 2px solid $font-color;
       border-radius: 10px;
     }
   }
   .detail {
     padding-left: 1rem;
+    a {
+      color: black;
+    }
+  }
+}
+hr {
+  border: 4px solid $hr-color;
+  border-radius: 2.5px;
+}
+.education {
+  font-size: inherit;
+}
+.skills {
+  text-align: justify;
+  li,
+  p b {
+    color: black;
+  }
+}
+.my-projects {
+  font-size: inherit;
+  a {
+    text-decoration: none;
+    color: black;
+    padding-left: 4rem;
+  }
+  span {
+    font-size: 1rem * 1.2;
+    font-weight: 600;
   }
 }
 // CLick Me
 .btn-click {
+  text-align: center;
   text-decoration: none;
   background-color: yellow;
   padding: 10px;
@@ -50,8 +99,8 @@ body {
 }
 // Footer
 .copyright {
-  font-size: 8pt;
+  font-size: 1rem * 0.8;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }

@@ -4,6 +4,8 @@
  */
 body {
   margin: 1rem;
+  color: #364c8d;
+  background-color: #e0e0e0;
 }
 
 .nav-bar {
@@ -23,6 +25,9 @@ body {
 
 .nav-bar .nav-links {
   text-decoration: none;
+  color: #364c8d;
+  font-weight: 900;
+  font-size: 1.4rem;
   padding-top: 4px;
 }
 
@@ -30,17 +35,31 @@ body {
   padding-left: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+p,
+address {
+  color: black;
+}
+
+p b,
+address b {
+  color: #364c8d;
+}
+
 .about {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 70%;
-      grid-template-columns: 30% 70%;
+  -ms-grid-columns: 35% 65%;
+      grid-template-columns: 35% 65%;
   padding: 0.5rem;
 }
 
 .about .pp img {
-  height: 100%;
   width: 100%;
+  border: 2px solid #364c8d;
   border-radius: 10px;
 }
 
@@ -48,7 +67,45 @@ body {
   padding-left: 1rem;
 }
 
+.about .detail a {
+  color: black;
+}
+
+hr {
+  border: 4px solid #f8ae9f;
+  border-radius: 2.5px;
+}
+
+.education {
+  font-size: inherit;
+}
+
+.skills {
+  text-align: justify;
+}
+
+.skills li,
+.skills p b {
+  color: black;
+}
+
+.my-projects {
+  font-size: inherit;
+}
+
+.my-projects a {
+  text-decoration: none;
+  color: black;
+  padding-left: 4rem;
+}
+
+.my-projects span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 .btn-click {
+  text-align: center;
   text-decoration: none;
   background-color: yellow;
   padding: 10px;
@@ -62,9 +119,9 @@ body {
 }
 
 .copyright {
-  font-size: 8pt;
+  font-size: 0.8rem;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
