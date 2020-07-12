@@ -5,7 +5,7 @@
 body {
   margin: 1rem;
 }
-
+// Header
 .nav-bar {
   list-style: none;
   flex-direction: row;
@@ -20,7 +20,23 @@ body {
     padding-left: 1rem;
   }
 }
-
+// Body
+.about {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 0.5rem;
+  .pp {
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+  .detail {
+    padding-left: 1rem;
+  }
+}
+// CLick Me
 .btn-click {
   text-decoration: none;
   background-color: yellow;
@@ -31,4 +47,11 @@ body {
   &:hover {
     background-color: lightblue;
   }
+}
+// Footer
+.copyright {
+  font-size: 8pt;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
