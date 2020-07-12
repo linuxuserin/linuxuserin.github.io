@@ -1,0 +1,45 @@
+/*
+ * Author: Injamul Mohammad Mollah
+ * Date: 2020-07-12
+ */
+body {
+  margin: 1rem;
+}
+
+.nav-bar {
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: auto !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-bar .nav-links {
+  text-decoration: none;
+  padding-top: 4px;
+}
+
+.nav-bar li {
+  padding-left: 1rem;
+}
+
+.btn-click {
+  text-decoration: none;
+  background-color: yellow;
+  padding: 10px;
+  font-family: Verdana;
+  border-radius: 8px;
+  border-color: white;
+}
+
+.btn-click:hover {
+  background-color: lightblue;
+}
+/*# sourceMappingURL=style.css.map */
