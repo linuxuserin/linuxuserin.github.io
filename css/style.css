@@ -4,8 +4,49 @@
  */
 body {
   margin: 1rem;
-  color: #364c8d;
-  background-color: #e0e0e0;
+  color: #13bfdd;
+  background-color: #ececec;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0.5rem;
+  }
+  .nav-bar {
+    list-style: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-right: auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .nav-bar img {
+    height: 20px;
+  }
+  .nav-bar .nav-links {
+    font-size: small;
+  }
+  .nav-bar li {
+    padding-left: 0.5rem;
+  }
+  .pp {
+    padding-top: 65px;
+  }
+  .my-projects a {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  body {
+    color: #13bfdd;
+  }
 }
 
 .nav-bar {
@@ -25,9 +66,8 @@ body {
 
 .nav-bar .nav-links {
   text-decoration: none;
-  color: #364c8d;
+  color: #13bfdd;
   font-weight: 900;
-  font-size: 1.4rem;
   padding-top: 4px;
 }
 
@@ -41,25 +81,25 @@ a {
 
 p,
 address {
-  color: black;
+  color: #362036;
 }
 
 p b,
 address b {
-  color: #364c8d;
+  color: #13bfdd;
 }
 
 .about {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 35% 65%;
-      grid-template-columns: 35% 65%;
+  -ms-grid-columns: 25% 75%;
+      grid-template-columns: 25% 75%;
   padding: 0.5rem;
 }
 
 .about .pp img {
   width: 100%;
-  border: 2px solid #364c8d;
+  border: 2px solid #13bfdd;
   border-radius: 10px;
 }
 
@@ -68,7 +108,7 @@ address b {
 }
 
 .about .detail a {
-  color: black;
+  color: #362036;
 }
 
 hr {
@@ -86,7 +126,7 @@ hr {
 
 .skills li,
 .skills p b {
-  color: black;
+  color: #362036;
 }
 
 .my-projects {
@@ -95,12 +135,16 @@ hr {
 
 .my-projects a {
   text-decoration: none;
-  color: black;
+  color: #362036;
   padding-left: 4rem;
 }
 
+.my-projects a:hover {
+  cursor: pointer;
+  color: #13bfdd;
+}
+
 .my-projects span {
-  font-size: 1.2rem;
   font-weight: 600;
 }
 
@@ -119,6 +163,7 @@ hr {
 }
 
 .copyright {
+  color: #362036;
   font-size: 0.8rem;
   text-align: center;
   padding-top: 20px;

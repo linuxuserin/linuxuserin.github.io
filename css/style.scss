@@ -3,13 +3,51 @@
  * Date: 2020-07-12
  */
 
-$font-color: #364c8d;
+$font-color: #13bfdd;
+$text-color: #362036;
 $hr-color: #f8ae9f;
 body {
   margin: 1rem;
   color: $font-color;
-  background-color: #e0e0e0;
+  background-color: #ececec;
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0.5rem;
+  }
+  .nav-bar {
+    list-style: none;
+    flex-direction: row;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: space-between;
+    img {
+      height: 20px;
+    }
+    .nav-links {
+      font-size: small;
+    }
+    li {
+      padding-left: 0.5rem;
+    }
+  }
+  .pp {
+    padding-top: 65px;
+  }
+  .my-projects {
+    a {
+      padding-left: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  body {
+    color: $font-color;
+  }
+}
+
 // Header
 .nav-bar {
   list-style: none;
@@ -21,7 +59,7 @@ body {
     text-decoration: none;
     color: $font-color;
     font-weight: 900;
-    font-size: 1rem * 1.4;
+    // font-size: 1em * 1.4;
     padding-top: 4px;
   }
   li {
@@ -34,14 +72,14 @@ a {
 }
 p,
 address {
-  color: black;
+  color: $text-color;
   b {
     color: $font-color;
   }
 }
 .about {
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 25% 75%;
   padding: 0.5rem;
   .pp {
     img {
@@ -54,7 +92,7 @@ address {
   .detail {
     padding-left: 1rem;
     a {
-      color: black;
+      color: $text-color;
     }
   }
 }
@@ -69,18 +107,22 @@ hr {
   text-align: justify;
   li,
   p b {
-    color: black;
+    color: $text-color;
   }
 }
 .my-projects {
   font-size: inherit;
   a {
     text-decoration: none;
-    color: black;
+    color: $text-color;
     padding-left: 4rem;
+    &:hover {
+      cursor: pointer;
+      color: $font-color;
+    }
   }
   span {
-    font-size: 1rem * 1.2;
+    // font-size: 1em * 1.2;
     font-weight: 600;
   }
 }
@@ -99,6 +141,7 @@ hr {
 }
 // Footer
 .copyright {
+  color: $text-color;
   font-size: 1rem * 0.8;
   text-align: center;
   padding-top: 20px;
