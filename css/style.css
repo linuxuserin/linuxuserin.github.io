@@ -133,6 +133,12 @@ hr {
   font-size: inherit;
 }
 
+.my-projects ul,
+.my-projects li {
+  list-style: none;
+  padding: 0.5em;
+}
+
 .my-projects a {
   text-decoration: none;
   color: #362036;
