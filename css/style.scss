@@ -5,11 +5,15 @@
 
 $font-color: #13bfdd;
 $text-color: #362036;
-$hr-color: #f8ae9f;
+$hr-color: #f8ae9f6c;
 body {
   margin: 1rem;
   color: $font-color;
   background-color: #ececec;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
 }
 
 @media screen and (max-width: 480px) {
