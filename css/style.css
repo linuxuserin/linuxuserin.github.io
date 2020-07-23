@@ -6,7 +6,7 @@ body {
   margin: 1rem;
   color: #13bfdd;
   background-color: #ececec;
-  background-image: url("../assets/background.jpg");
+  background-image: url("../assets/background.svg");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-box-align: center;
