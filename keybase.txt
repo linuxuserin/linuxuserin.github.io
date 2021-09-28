@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/linuxuserin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://linuxuserin.github.io
+  * I am linuxuserin (https://keybase.io/linuxuserin) on keybase.
+  * I have a public key with fingerprint 5818 E88B 7728 C35B 4E4A  F5AB 81E4 1C7B 1510 58E9
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ab4a7e975f4a01674d3a93f15650820e412a096d6586b105e0488e4fa6e58ec80a",
+      "fingerprint": "5818e88b7728c35b4e4af5ab81e41c7b151058e9",
+      "host": "keybase.io",
+      "key_id": "81e41c7b151058e9",
+      "kid": "0101ab4a7e975f4a01674d3a93f15650820e412a096d6586b105e0488e4fa6e58ec80a",
+      "uid": "e94fbca5f98b42c89822403a062f2719",
+      "username": "linuxuserin"
+    },
+    "service": {
+      "hostname": "linuxuserin.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1632813026,
+  "expire_in": 157680000,
+  "prev": "6f0a9d749776bc164d74de9881da20c1cb4de761c22b94924bfb72ddf4b13723",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkm1QVGUUx3eRCLCQlEwdcfTmEEy7eN9fVkMccRwRFQlpR7PtPvc+d/e6sLvc
+3UVeRNAERxkcB4QmmgKbMojUxiZmwCJAyMSpICmJHWTGgEDQNETeAruX8lN97Pny
+nHPmf37nZc7pZxfoAvVH+lfmPB9qHtZfHwY6Punr33IQ4BSzEFMOYofzH0wVodtj
+scsiYkJQDMV4QPIM5BhKInkUoxlSJHiOkDCKplAWRyGJ4TzK0SJNsTTAUAqiJMtC
+UuJpSLFQYFEeMSCS7LBCxaXIDo+KpViMhSwLGAZnBYICJCR5ieIBi6k0gQEYpXJY
+yKmJNqdby1CbA7wbRstONaY6lvn2/kP/P/ftncdBjpSAwFMSxwISF1iOxXESJXiU
+xiWcwbS6XjdUHHwaVNWpssObqfmyA8k1IKqRIQtQ2602zL9F0VbZY/OCv2dzKU6P
+U3CmqhKbx+NymzSEJ8ul5RyEwPIPzQJkh6juVM3IgIpbdjoQE6YqBY+s4TGawFmM
+QHHagMBMl6xAi6wpKIZmUfVpdUSYoTJpCeU5kSE5hqGBgNGkaouQY1lM5HFUwASg
+ugyNCTgOOJLDSSABBhdFiQQYweAEog2Y7nAiJk7tk7eqSLdsdfAerwKR3OATfoS/
+Th+oC1+6xt+8bKjoYOSVfTvjx2uf3OFTftoR6oKDQp9EfvWG6oquHquS5F3T5sVV
+s2Cl/lrreevATstUzNrada0x4vufFehIrjT5ZJyp0G1Lf41A7/7YONCY6G649kt+
+16Hq8me+29rUZq++GTbQYN7aWVu2Pd/Va53e/FLf8UjLguKF92DsupLwYO6bnIqi
+RcFnG0Zq52xL9sU9qFm/uWlv1J/dg1NhZ5xjZbPKecOBH/a/IeH11Zdi383fLblS
+ehPHmlM+DIow/3Eu2FSw5cCSiBf0wxvCpmde/sq4J+qCz5bmO/3FeJ6YlXSsy9FX
+3V9XY1qxeixyIxoSkH2i7Gb4R6U/p/XtuX+kwjh6dO/jSGWkPSF2hACHs5NzVr19
+e6L+1fbVuQOXT50Z5ddsgPH5praZuwze1ngnwGNuD+kIHJuxB6RPktfXHr6x8QN7
+Zk/q+Itx3dHRq9L0+bMPmgrLiwtCLD0RNf3NCQoZ9OanhorLy3bUtPjKp7s2jVZu
+84mW4VPWC5ZFlVcKt0+uB9kTye+EfWwbzBhb2PiwtbMki/SRrdsGk5zfl8Y9Tsqb
+mizWd3fbkQIjO36vTu9vrKvwmy7xZue9d3ziXMRyn1DpHqn/RDj7rVTn/XxFcm7i
+0bmhvEf47sU3erOG3nol/lYLd+mnmU3DF9G5/h2G/bcMcRdPJj0d83qn0hHVIT8M
+iKnq6mm+0xL++9VHloTa23VLd903HvoydXnKc8a/AA==
+=ZBL3
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/linuxuserin
+
+==================================================================
